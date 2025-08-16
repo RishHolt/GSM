@@ -36,13 +36,13 @@ export const zoningApplications = [
   {
     id: "ZC-2025-001",
     applicantName: "Juan Carlo Santos",
-    projectType: "Commercial Building",
-    location: "Bonifacio Global City, Taguig",
+    projectType: "Commercial Project",
+    location: "Bagong Barrio, Caloocan City",
     dateSubmitted: "2025-08-15",
     status: statusTypes.PENDING,
     details: {
       contact: "+63 917 123 4567",
-      address: "26th Street cor. 11th Avenue, BGC, Taguig City",
+      address: "26th Street cor. 11th Avenue, Bagong Barrio, Caloocan City",
       lotSize: "500 sqm",
       landUseCategory: landUseCategories[1],
       files: [
@@ -59,13 +59,13 @@ export const zoningApplications = [
   {
     id: "ZC-2025-002",
     applicantName: "Maria Christina Reyes",
-    projectType: "Residential Building",
-    location: "Katipunan Avenue, Quezon City",
+    projectType: "Residential Project",
+    location: "C-3 Road, Caloocan City",
     dateSubmitted: "2025-08-10",
     status: statusTypes.UNDER_REVIEW,
     details: {
       contact: "+63 915 567 8901",
-      address: "123 Katipunan Avenue, Loyola Heights, Quezon City",
+      address: "123 C-3 Road, Grace Park, Caloocan City",
       lotSize: "300 sqm",
       landUseCategory: landUseCategories[0],
       files: [
@@ -81,13 +81,13 @@ export const zoningApplications = [
   {
     id: "ZC-2025-003",
     applicantName: "Ramon dela Cruz",
-    projectType: "Mixed-Use Development",
-    location: "Ortigas Center, Pasig",
+    projectType: "Mixed-Use Project",
+    location: "Bagumbayan, Caloocan City",
     dateSubmitted: "2025-08-05",
     status: statusTypes.APPROVED,
     details: {
       contact: "+63 918 234 5678",
-      address: "Emerald Avenue, Ortigas Center, Pasig City",
+      address: "Emerald Avenue, Bagumbayan, Caloocan City",
       lotSize: "1200 sqm",
       landUseCategory: landUseCategories[3],
       files: [
@@ -104,13 +104,13 @@ export const zoningApplications = [
   {
     id: "ZC-2025-004",
     applicantName: "Angeles Construction Corp.",
-    projectType: "Industrial Facility",
-    location: "Laguna Technopark",
+    projectType: "Industrial Project",
+    location: "Grace Park, Caloocan City",
     dateSubmitted: "2025-07-25",
     status: statusTypes.REVISION_REQUIRED,
     details: {
       contact: "+63 927 890 1234",
-      address: "Laguna Technopark, Biñan, Laguna",
+      address: "Grace Park Industrial Area, Caloocan City",
       lotSize: "2500 sqm",
       landUseCategory: landUseCategories[2],
       files: [
@@ -127,13 +127,13 @@ export const zoningApplications = [
   {
     id: "ZC-2025-005",
     applicantName: "SM Development Corporation",
-    projectType: "Shopping Mall",
-    location: "Commonwealth, Quezon City",
+    projectType: "Commercial Project",
+    location: "Camarin, Caloocan City",
     dateSubmitted: "2025-08-01",
     status: statusTypes.UNDER_REVIEW,
     details: {
       contact: "+63 919 345 6789",
-      address: "Commonwealth Avenue, Quezon City",
+      address: "Commonwealth Avenue Extension, Camarin, Caloocan City",
       lotSize: "15000 sqm",
       landUseCategory: landUseCategories[1],
       files: [
